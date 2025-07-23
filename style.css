@@ -1,0 +1,192 @@
+
+/* *  {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serrif';
+    box-sizing: border-box;
+}
+
+body  {
+    background: #90eced;
+} */
+ /* Center the login container */
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove any default margin */
+    background: #90eced; /* Background color */
+}
+
+/* Style for the login container */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.app  {
+    background: #000000;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1  {
+     font-size: 24px;
+     color: #fefefe;
+     font-weight: 600;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     border-bottom: 1px solid #333;
+     padding-bottom: 30px;     
+}
+
+.quiz  {
+    padding: 20px 0;
+
+}
+
+.quiz h2  {
+    font-size: 18px;
+    color: #dddde1;
+    font-weight:600;
+}
+
+.btn  {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%; 
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0; 
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s; 
+}
+
+.btn:hover:not([disabled])  {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn  {
+    background: #efff09;
+    color: #000000;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;  
+    display: none;
+
+}
+
+.correct {
+    background: #9aeabc;
+
+}
+
+.incorrect {
+    background: #ff9393;
+
+}
+
+.logo{
+    background: #080808;
+    width: 90%;
+    max-width: 600px;
+    margin: 95px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+h3{
+    background: white;
+}
+.centre{
+    align-items: center;
+    background: #000000;
+    width: 100%;
+    max-width: 300px;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.start{
+    background: #fefefe;
+    color: #000000;
+    font-weight: 550;
+    width: 150px;
+    padding: 10px;
+    margin: 16px auto 0;
+    border-radius: 8px;
+    cursor: pointer;  
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+}
+
+#start-quiz-btn {
+    padding: 15px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #0c096c; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.navbar{  
+    padding: 15px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #0c096c; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 9px;
+    transition: background-color 0.3s;
+}
+h4{
+    color: #fefefe;
+}
+
+
+.results-container {
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.results-container h3 {
+    color:#333;
+}
+
+.results-container p {
+    font-size: 18px;
+    color: #555;
+}
+p{
+    color: #fefefe;
+}

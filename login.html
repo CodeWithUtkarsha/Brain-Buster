@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Buster Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Notification Icon -->
+    <div class="notification-icon" onclick="toggleNotifications(event)">
+        <span>🔔</span>
+        <span id="notification-count" class="notification-count">3</span> <!-- Example notification count -->
+    </div>
+
+    <!-- Notifications Dropdown -->
+    <div id="notification-dropdown" class="notification-dropdown" style="display: none;">
+        <ul>
+            <li>Notification 1: New quiz available!</li>
+            <li>Notification 2: Your score has been updated.</li>
+            <li>Notification 3: Don't forget to complete your quiz!</li>
+        </ul>
+    </div>
+    <div class="login-container">
+        <h2>Login to Brain Buster</h2>
+        <form id="login-form" onsubmit="login(event)">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit" id="login-btn">Login</button>
+            <p class="or">Don’t have an account? <a href="#" onclick="showRegister()">Register here</a></p>
+        </form>
+        <form id="register-form" style="display: none;">
+            <h2>Register</h2>
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" required>
+            
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" required>
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" required>
+            
+            <button type="button" id="register-btn">Register</button>
+            <button type="button" onclick="showLogin()">Back to Login</button> <!-- Back to Login Button -->
+
+            <p class="or">Already have an account? <a href="#" onclick="showLogin()">Login here</a></p>
+            
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
