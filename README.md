@@ -6,7 +6,7 @@
 
 ## 🚀 Demo
 
-🌐 [Live Site](https://brain-buster-red.vercel.app/)
+🌐 [Live Site](https://brain-buster-hvl5o6u4y-newp.vercel.app)
 
 ---
 
